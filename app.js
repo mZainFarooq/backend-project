@@ -12,7 +12,7 @@ app.use(
   })
 );
 
-app.use(express.json({ limit: limit }));
+app.use(express.json({ limit }));
 app.use(
   express.urlencoded({
     extended: true,
